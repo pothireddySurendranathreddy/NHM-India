@@ -1,0 +1,130 @@
+---
+---
+
+@import "minima";
+
+/* 🌈 Global Background */
+body {
+  background: linear-gradient(135deg, #eef5ff, #f4fff1);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* 🌈 Header */
+.site-header {
+  background: linear-gradient(90deg, #0d47a1, #1b5e20);
+  border-top: 5px solid #ffeb3b;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.site-title, .site-title:visited {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.site-nav a {
+  color: #ffeb3b !important;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  color: #ffffff !important;
+}
+
+/* 🌈 Main Content */
+.page-content {
+  padding: 30px 15px;
+}
+
+.post, .page {
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+}
+
+/* 🌈 Headings */
+h1, h2, h3 {
+  color: #0d47a1;
+}
+
+h2 {
+  border-bottom: 3px solid #4caf50;
+  padding-bottom: 6px;
+}
+
+/* 🌈 Links */
+a {
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #2e7d32;
+  text-decoration: underline;
+}
+
+/* 🌈 Buttons */
+.button, button {
+  background: linear-gradient(90deg, #2196f3, #4caf50);
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* 🌈 Blockquotes */
+blockquote {
+  border-left: 6px solid #4caf50;
+  background: #f1f8e9;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+/* 🌈 Tables */
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  background: #0d47a1;
+  color: #ffffff;
+}
+
+td {
+  background: #f9fbe7;
+}
+
+/* 🌈 Footer */
+.site-footer {
+  background: linear-gradient(90deg, #1b5e20, #0d47a1);
+  color: #ffffff;
+  padding: 30px 15px;
+}
+
+.site-footer a {
+  color: #ffeb3b;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+/* 🌈 Code Blocks */
+pre, code {
+  background: #263238;
+  color: #e0f2f1;
+  border-radius: 8px;
+}
+
+/* 🌈 Images */
+img {
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
